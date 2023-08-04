@@ -6,7 +6,5 @@ def main():
     r_num = float(input())
     xn_num = float(input())
     yn_num = float(input())
-    sqr_x = x_num * (r_num)**0.5
-    sqr_y = y_num * (r_num)**0.5
-    print(xn_num <= sqr_x and yn_num <= sqr_y)
+    print((((xn_num - x_num)**2)+((yn_num - y_num)**2) <= r_num**2))
 main()
