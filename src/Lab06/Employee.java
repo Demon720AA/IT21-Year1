@@ -48,7 +48,7 @@ public class Employee {
     }
 
     public void eat(Food f) {
-        energy = f.getEnergy();
+        this.energy += Food.getEnergy();
     }
 
     public boolean buyFood(Seller s) {
@@ -62,7 +62,7 @@ public class Employee {
     }
 
     public boolean equals(Employee e) {
-        return this.name == e.name;
+        return this.name.equals(e.name);
     }
 
     public String toString() {

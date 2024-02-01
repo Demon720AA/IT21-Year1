@@ -25,7 +25,7 @@ public class Programmer extends Employee {
             System.out.println("Your code is " + str);
             setEnergy(getEnergy() - 30);
             setHappiness(happiness - 30);
-        }else{
+        } else {
             System.out.println("Error Error Error");
             setEnergy(getEnergy() - 30);
             setHappiness(happiness - 30);
@@ -37,7 +37,7 @@ public class Programmer extends Employee {
             System.out.println("Your code is " + str);
             setEnergy(getEnergy() - 30);
             setHappiness(happiness - 30);
-        }else{
+        } else {
             System.out.println("Error Error Error");
             setEnergy(getEnergy() - 30);
             setHappiness(happiness - 30);
