@@ -14,13 +14,8 @@ public class CalculatorOneGUI{
     private JFrame fr;
     private JPanel p;
     private JLabel lbl;
-    private JTextField txt1;
-    private JTextField txt2;
-    private JButton btn1;
-    private JButton btn2;
-    private JButton btn3;
-    private JButton btn4;
-    private JTextField txt3;
+    private JTextField txt1, txt2, txt3;
+    private JButton btn1, btn2, btn3, btn4;
     
     public CalculatorOneGUI(){
         fr = new JFrame("Calculator");
