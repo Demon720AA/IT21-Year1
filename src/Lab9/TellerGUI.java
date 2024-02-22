@@ -26,7 +26,7 @@ public class TellerGUI {
         p3 = new JPanel();
         fr.setSize(300, 200);
         p1.add(new JLabel("Balance"));
-        p1.add(txt1 = new JTextField());
+        p1.add(txt1 = new JTextField(String.valueOf(num))); txt1.setEditable(false);
         p1.setLayout(new GridLayout(1, 2));
 
         p2.add(new JLabel("Amount"));
